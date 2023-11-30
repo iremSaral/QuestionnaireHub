@@ -1,0 +1,35 @@
+
+.button {
+  background-color: #6E8891;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin-top: 3px;
+  width: 100%;
+  transition: background-color 0.3s;
+
+}
+
+.button:hover {
+  background-color: #223C53;
+  box-shadow: #6E8891;
+  color: #ffffff;
+}
+
+.surveyButton {
+  width: 50%;
+ max-height: 30%;
+  margin-top: 5px;
+  padding: 3px;
+  transition: border 0.5s;
+}
+
+.surveyButton:hover {
+  border-color: #223C53;
+  box-shadow: 0 0 10px orange; /* Örnek bir gölgelendirme ekledim. Gerekirse ayarlayabilirsiniz. */
+
+}
+
+.mainBackground{
+  display: flex;
+  background:linear-gradient(100deg,#223C53,#6E8891)
+}
